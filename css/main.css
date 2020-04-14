@@ -1,0 +1,89 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px;
+  background: rgb(234 234 234);
+  color: rgb(91 91 91);
+  /* display: flex; */
+  /* justify-content: center; */
+
+
+}
+
+header {
+  background: rgb(234 234 234);
+  display:flex !important;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: white;
+  margin-top: 50px;
+  padding-top: 50px;
+
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 1.5rem;
+  width: 8rem;
+}
+
+.phone {
+  height: 1.2rem;
+  color: rgb(214 74 60);
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 20px;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.bio {
+  vertical-align: middle;
+}
+
+.section {
+  background: rgb(25 25 25);
+  /* margin: 0 auto; */
+  /* display: flex; */
+  color: rgb(214 74 60);
+}
+
+hr {
+  color: rgb(91 91 91);
+}
+
+.bio {
+  text-align: center;
+
+}
+
+h4  {
+  text-align: center;
+  color: rgb(214 74 60);
+}
+
+h5 {
+  color: rgb(214 74 60);
+}
+
+.colomns {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  cursor: pointer;
+}
